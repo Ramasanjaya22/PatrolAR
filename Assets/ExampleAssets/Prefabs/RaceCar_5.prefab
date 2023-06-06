@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2304170535756189528}
   m_Layer: 0
   m_Name: RaceCar_5
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,6 +120,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -215,6 +220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -237,6 +247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Racecar_5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534151792443969427, guid: 880d6b740dd7f594994045b9eaf94526,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 1534151792443969427, guid: 880d6b740dd7f594994045b9eaf94526,
         type: 3}
@@ -405,6 +420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -497,6 +517,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tyre_2 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}

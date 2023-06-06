@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8167361094436450462}
-  m_LocalRotation: {x: -0.38082194, y: 0.002193385, z: 0.005325509, w: 0.92463046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.2, y: -0.067, z: 0.12}
   m_LocalScale: {x: -0.00001, y: 0.00001, z: 0.00001}
   m_ConstrainProportionsScale: 0
@@ -278,7 +278,7 @@ Transform:
   - {fileID: 7617233028488587314}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -44.77, y: 0, z: 0.66}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8167361094436451787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,6 +1183,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8167361094436450663}
     m_Modifications:
+    - target: {fileID: 576486739417453437, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840493873373387844, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 840493873569745935, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 840493873685599542, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 840493874529516425, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     - target: {fileID: 3880039417530125780, guid: 58947207bc0302044a9714d518145a64,
         type: 3}
       propertyPath: m_RootOrder
@@ -1243,8 +1268,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Van_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5257734158224711791, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 7661203664144973845, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165848922043441600, guid: 58947207bc0302044a9714d518145a64,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58947207bc0302044a9714d518145a64, type: 3}
+--- !u!1 &1484581499777910153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5257734158224711791, guid: 58947207bc0302044a9714d518145a64,
+    type: 3}
+  m_PrefabInstance: {fileID: 6660105172507354598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &412589306069876838
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484581499777910153}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.436607, y: 1.030301, z: 2.987007}
+  m_Center: {x: 0, y: 0.5262336, z: -0.1689284}
 --- !u!4 &7617233028488587314 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3880039417530125780, guid: 58947207bc0302044a9714d518145a64,

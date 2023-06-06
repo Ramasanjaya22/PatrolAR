@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7105007174143724597}
   m_Layer: 0
   m_Name: Big_Truck 1
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,6 +120,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -212,6 +217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tyre_2 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}
@@ -310,6 +320,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -405,6 +420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109898935157736679, guid: 0a0690407a089614cba27679e6724b6c,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -497,6 +517,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Big Truck (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984874976555694245, guid: c565f5468dca923409c473351e2fb736,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 7984874976555694245, guid: c565f5468dca923409c473351e2fb736,
         type: 3}

@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3880039417530125780}
+  - component: {fileID: 6464060904719175375}
   m_Layer: 0
   m_Name: Van_1
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,6 +37,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6464060904719175375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5257734158224711791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4366072, y: 1.030301, z: 2.9870067}
+  m_Center: {x: 0, y: 0.5262336, z: -0.16892844}
 --- !u!1001 &4573216528945352188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47,6 +61,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tyre_1 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}
@@ -145,6 +164,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6135384904063190890, guid: 3b2cede58fb39df45a616e00c62f1f5f,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135384904063190890, guid: 3b2cede58fb39df45a616e00c62f1f5f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -237,6 +261,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tyre_1 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}
@@ -335,6 +364,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -427,6 +461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tyre_1 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}

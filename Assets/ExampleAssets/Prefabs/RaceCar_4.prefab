@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6432249528094511650}
   m_Layer: 0
   m_Name: RaceCar_4
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,6 +47,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tyre_1 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}
@@ -145,6 +150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -237,6 +247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Racecar_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484703517865460377, guid: bc2f1ba031cc2e24d8d06f5df1b61e94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 8484703517865460377, guid: bc2f1ba031cc2e24d8d06f5df1b61e94,
         type: 3}
@@ -335,6 +350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2
       objectReference: {fileID: 0}
@@ -427,6 +447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tyre_1 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
+        type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 3809302623899793013, guid: 34040b661ccf18548bb03f02829d0796,
         type: 3}
