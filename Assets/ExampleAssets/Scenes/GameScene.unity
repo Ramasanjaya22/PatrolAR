@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd0ddf9a96f09ae4d96813997935ed5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arObjectToSpawn: {fileID: 1315734775827125798, guid: b102a85862591734a89dc5a91b98224c,
+  arObjectToSpawn: {fileID: 8167361094436450462, guid: aaaf90fb71d7be141b1da8d9a812e0df,
     type: 3}
   placementIndicator: {fileID: 1963943986}
 --- !u!4 &32028119
