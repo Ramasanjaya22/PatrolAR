@@ -151,8 +151,8 @@ RectTransform:
   m_GameObject: {fileID: 433042466}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1344649779}
   m_RootOrder: 2
@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 433042469}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1344649780}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: LoadToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GameScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &433042469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,15 +284,15 @@ RectTransform:
   m_GameObject: {fileID: 470074651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1344649779}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.164, y: 0.13254164}
   m_AnchorMax: {x: 0.84900004, y: 0.27610418}
-  m_AnchoredPosition: {x: -2.3416138, y: 3.0200195}
+  m_AnchoredPosition: {x: -2.3416138, y: 180}
   m_SizeDelta: {x: 8, y: 8.047791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470074653
@@ -326,7 +338,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 470074654}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1344649780}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: OnQuitButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &470074654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,15 +511,15 @@ RectTransform:
   m_GameObject: {fileID: 894484558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1344649779}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.164, y: 0.2854792}
   m_AnchorMax: {x: 0.84900004, y: 0.42674994}
-  m_AnchoredPosition: {x: -2.3416138, y: -3.9500122}
+  m_AnchoredPosition: {x: 0, y: 80}
   m_SizeDelta: {x: 8, y: 11.047791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &894484560
@@ -541,7 +565,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 894484561}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1344649780}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: LoadToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: About
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &894484561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,6 +788,7 @@ GameObject:
   - component: {fileID: 1344649778}
   - component: {fileID: 1344649777}
   - component: {fileID: 1344649776}
+  - component: {fileID: 1344649780}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -845,6 +882,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1344649780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344649775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb05862197ad0664f9819b237fb9855f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1784907183
 GameObject:
   m_ObjectHideFlags: 0
