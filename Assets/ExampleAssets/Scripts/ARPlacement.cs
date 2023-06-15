@@ -7,6 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 public class ARPlacement : MonoBehaviour
 {
     public GameObject arObjectToSpawn;
+    public GameObject leanController;
     public GameObject placementIndicator;
     public GameObject shoot;
     public Timer timer;
@@ -18,6 +19,7 @@ public class ARPlacement : MonoBehaviour
 
     void Start()
     {
+        leanController.SetActive(false);
         arRaycastManager = FindObjectOfType<ARRaycastManager>();
         shoot.SetActive(false);
     }
@@ -38,6 +40,7 @@ public class ARPlacement : MonoBehaviour
     {
         if (spawnedObject == null && placementPoseIsValid)
         {
+            
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
         }

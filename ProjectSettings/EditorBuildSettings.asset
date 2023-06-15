@@ -17,9 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ExampleAssets/Scenes/LevelMenu.unity
     guid: 5127fcdf884d9ad448185bfa1059d10b
-  - enabled: 1
+  - enabled: 0
     path: Assets/ExampleAssets/Scenes/GameScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/Level/Level1.unity
+    guid: a66c25a9aa2e66640a861190bc86b00f
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/Level/Level2.unity
+    guid: 3effefa7160a4c34eac4e4e8190bd7a9
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/Level/Level3.unity
+    guid: 621bf6a24f34e3045993a39b3f0fa8bb
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
